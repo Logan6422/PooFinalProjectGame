@@ -18,6 +18,8 @@ private:
 	int MainMenuSelected;
 	Font font;
 	Text mainMenu[3];
+	
+	Text instrucciones;
 };
 
 #endif

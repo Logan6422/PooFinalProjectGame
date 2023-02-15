@@ -14,7 +14,7 @@ tab_width=4
 tab_use_spaces=0
 explorer_path=Images
 inherits_from=
-current_source=ScoreManager.cpp
+current_source=MainMenu.cpp
 path_char=/
 [source]
 path=main.cpp
@@ -42,7 +42,8 @@ path=Buff.cpp
 cursor=24:35
 [source]
 path=MainMenu.cpp
-cursor=44:26
+cursor=39:1
+open=true
 [source]
 path=Menu.cpp
 cursor=58:24
@@ -82,7 +83,7 @@ path=Buff.h
 cursor=0:0
 [header]
 path=MainMenu.h
-cursor=19:16
+cursor=21:20
 [header]
 path=Menu.h
 cursor=14:8

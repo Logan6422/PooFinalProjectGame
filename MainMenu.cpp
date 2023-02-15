@@ -20,6 +20,7 @@ MainMenu::MainMenu() {
 	mainMenu[1].setPosition(WIDTH/2.5,HEIGHT/2);
 	
 	
+	
 	///exit
 	mainMenu[2].setFont(font);
 	mainMenu[2].setFillColor(Color::White);
@@ -28,13 +29,21 @@ MainMenu::MainMenu() {
 	mainMenu[2].setPosition(WIDTH/2.5,HEIGHT/1.5);
 	
 	MainMenuSelected = 0;
+	
+	
+	instrucciones.setFont(font);
+	instrucciones.setFillColor(Color::White);
+	instrucciones.setString("Move: S/Select: F/Return: Esc");
+	instrucciones.setCharacterSize(30);
+	instrucciones.setPosition(WIDTH/17,HEIGHT/1.1);
+	
 }
 
 void MainMenu::draw(RenderWindow &w){
 	for(int i=0;i<3;i++) { 
 		w.draw(mainMenu[i]);
 	}
-	
+	w.draw(instrucciones);
 }
 
 void MainMenu:: MoveDown(){
